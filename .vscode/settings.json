@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "sw-description-encrypted": "plaintext",
+        "sw-description-base": "plaintext",
+        "sw-description-rdiff": "plaintext",
+        "sw-description-zchunk": "plaintext",
+        "sw-description": "plaintext",
+        "sw-description-b-mongoose": "plaintext",
+        "Kconfig": "plaintext",
+        "*.py": "python",
+        "stdatomic.h": "c"
+    }
+}

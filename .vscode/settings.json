@@ -8,6 +8,7 @@
         "sw-description-b-mongoose": "plaintext",
         "Kconfig": "plaintext",
         "*.py": "python",
-        "stdatomic.h": "c"
+        "stdatomic.h": "c",
+        "stdio.h": "c"
     }
 }

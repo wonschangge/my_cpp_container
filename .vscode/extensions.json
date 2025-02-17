@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "llvm-vs-code-extensions.vscode-clangd",
+        "ms-vscode-remote.remote-containers",
+        "alibaba-cloud.tongyi-lingma",
+        "dracula-theme.theme-dracula"
+    ]
+}

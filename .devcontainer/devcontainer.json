@@ -12,7 +12,8 @@
 				"ms-vscode-remote.remote-containers",
 				"Alibaba-Cloud.tongyi-lingma",
 				"dracula-theme.theme-dracula",
-				"xabikos.JavaScriptSnippets"
+				"xabikos.JavaScriptSnippets",
+				"bierner.markdown-mermaid"
 			]
 		}
 	}

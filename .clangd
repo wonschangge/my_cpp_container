@@ -1,0 +1,21 @@
+CompileFlags:
+  # 针对 C 文件（.c 后缀）
+  - fileMatch: "\\.c$"  # 正则匹配以 .c 结尾的文件
+    flags:
+      - "-std=c11"       # C 语言标准（如 C11）
+      - "-Wall"          # 开启基础警告
+      - "-Wextra"        # 开启额外警告
+      - "-D_C_RELEASE"   # 自定义 C 语言宏
+
+  # 针对 C++ 文件（.cpp/.cc/.cxx 等后缀）
+  - fileMatch: "\\.(cpp|cc|cxx|c\+\+)$"  # 正则匹配 C++ 源文件后缀
+    flags:
+      - "-std=c++20"      # C++ 语言标准（如 C++17）
+      - "-Wall"
+      - "-Wextra"
+      - "-Wnon-virtual-dtor"  # C++ 特定警告
+      - "-D_CPP_RELEASE"  # 自定义 C++ 宏
+
+  # 通用配置（可选，会被上述规则覆盖）
+  - flags:
+      - "-Iinclude"      # 公共头文件路径

@@ -28,7 +28,15 @@
                 }
             ]
         },
-        
+
+        {
+            "name": "C++ Launch (Linux)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "手撕代码/排序/a.out",
+            "cwd": "${workspaceFolder}"
+        },
+
         {
             "type": "node",
             "request": "launch",
